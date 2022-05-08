@@ -1,0 +1,30 @@
+@import "./base";
+
+
+.wrapper {
+  background-color: #5f8c8c;
+  min-height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  border: 1px solid #000;
+}
+
+
+.todo-form {
+
+  &__input {
+
+  }
+
+  &__button{
+
+  }
+}
