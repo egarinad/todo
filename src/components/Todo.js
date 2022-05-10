@@ -23,7 +23,8 @@ function Todo({todos, completeTodo, removeTodo, updateTodo}) {
            <div className="icons">
                <AiFillDelete
                    onClick={()=>removeTodo(todo.id)}
-                   className='delete-icon'
+                   className='icons__delete'
+
                />
 
 

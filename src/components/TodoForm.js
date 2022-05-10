@@ -29,7 +29,7 @@ function TodoForm({ onSubmit }) {
     <form className="todo-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Add a todo"
+        placeholder="Write something..."
         value={input}
         name="text"
         className="todo-form__input"
