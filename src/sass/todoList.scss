@@ -19,16 +19,15 @@
 }
 
 .todo-form {
-
   margin: 0 10px;
-  border: 1px solid #758cbf;
-  border-radius: 2vw;
   overflow: hidden;
   display: flex;
   width:95vw;
   max-width: 490px;
 
   &__input {
+    border: 1px solid #758cbf;
+    border-radius: 2vw 0 0 2vw;
     font-size: 17px;
     padding-left: 30px;
     max-width: 400px;
@@ -37,14 +36,15 @@
   }
 
   &__button {
-    //border: 1px solid black;
     font-size: 17px;
     background-color: #758cbf;
     height: 5vh;
     width: 30vw;
-    //max-width: 90px;
-
+    border-radius:0 2vw 2vw 0;
   }
+}
+.update{
+  margin-top: 1.5vh;
 }
 
 
@@ -52,15 +52,35 @@
 .todo-row {
   font-size: 17px;
   border-radius: 2vw;
-  line-height: 5vh;
   width:95vw;
-  padding: 0 30px;
-  margin: 1vh;
-  height: 5vh;
+  margin: 1.5vh;
+  height: 6vh;
   max-width: 490px;
   display: flex;
   justify-content: space-between;
   background-color: #758cbf;
+
+  &__icons{
+    margin: auto 0;
+    padding-right:2vw;
+  }
+
+  &__text{
+    margin: auto 0;
+    padding-left: 30px;
+
+  }
+}
+
+.icons {
+  &__update {
+    background-color: #758cbf;
+    margin-right: 20px;
+  }
+
+  &__delete{
+    background-color: #758cbf;
+  }
 }
 
 
@@ -68,12 +88,3 @@
   background-color: #4b5a7c;
   text-decoration: line-through;
 }
-
-
-.icons {
-
-
-  &__delete {
-  }
-}
-
