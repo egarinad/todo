@@ -38,6 +38,7 @@ function TodoForm(props) {
             name="text"
             className="todo-form__input update"
             onChange={handleChange}
+            ref={inputRef}
           />
           <button className="todo-form__button update">Update</button>
         </>
