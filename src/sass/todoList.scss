@@ -32,13 +32,15 @@
     padding-left: 30px;
     max-width: 400px;
     width: 70vw;
-    height: 5vh;
+    height: 6vh;
+    min-height: 40px;
   }
 
   &__button {
     font-size: 17px;
     background-color: #758cbf;
-    height: 5vh;
+    height: 6vh;
+    min-height: 40px;
     width: 30vw;
     border-radius:0 2vw 2vw 0;
   }
@@ -55,6 +57,7 @@
   width:95vw;
   margin: 1.5vh;
   height: 6vh;
+  min-height: 40px;
   max-width: 490px;
   display: flex;
   justify-content: space-between;
